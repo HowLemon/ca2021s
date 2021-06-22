@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="utf-8">
+    <title>電腦動畫作品集</title>
+    <script src="http://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+      h1 {
+        background-color: rgba(255, 255, 0, 0.1);
+        font-family: 'Noto Serif JP', serif;
+        font-size: 24pt;
+        border: solid 1px black;
+        width: 90%;
+        margin: 5px auto;
+        padding: 10px;
+      }
+
+      h3 {
+        background-color: rgba(255, 255, 0, 0.1);
+        color: white; 
+        text-shadow: 0 0 6px #FF0000, 0 0 6px #000000;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 18pt;
+        border: solid 1px black;
+        width: 90%;
+        margin: 5px auto;
+        padding: 10px;
+      }
+
+      div {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 12pt;
+        border: solid 1px black;
+        width: 90%;
+        margin: 5px auto;
+        padding: 10px;
+      }
+
+      iframe:hover, div:hover, ul:hover, h1:hover, h3:hover {
+        background-color: rgba(255, 255, 128, 0.1);
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 0px 0px 5px 5px rgba(128, 255, 255, 0.5);
+      }
+
+      iframe {
+        border: 1px black solid;
+      }
+    </style>
+</head>
+<body>
+
+<h1> 109-2 電腦動畫 作品集 </h1>
+
+<div>
+  [檔案] <a href="https://github.com/君の名は/vis2021s/">https://github.com/君の名は/ca2021s/</a>
+  <hr>
+  [網頁] <a href="https://君の名は.github.io/vis2021s/">https://君の名は.github.io/ca2021s/</a>
+</div>
+
+
+<h3> lab 1: VRoid + Mixamo </h3>
+<div>
+  心得: 雖然對unity頗有自信，但是對較新的版本跟plugin還是花了不少時間適應，但是感覺學習了很多，自己對unity越來越熟了!
+</div>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XU536og-ekI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<h3> lab 2: MMD + Mixamo </h3>
+<div>
+  心得: 完成了MMD之後，了解了除了unity之外有趣的動畫軟體，MMD相對也非常簡單，所以感到非常開心
+</div>
+<div>
+https://drive.google.com/file/d/1XrVrHQIqw9tolo5-rGnYdS9urhcKUT8o/view?usp=sharing
+</div>
+
+
+<h3> lab 3: </h3>
+ <div>
+  心得: 這次是我第一次使用three.js來操作MMD的動畫，雖然有點不熟悉，但我利用three.js內建功能加上了新的光源，以及修正了一些貼圖的錯誤，另外，我將眼睛部分的材質設得有點發光，讓角色的眼神變得更明亮。
+</div>
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QRToUlZWB4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<h3> lab 4: </h3>
+<div>
+ 心得:將MMD的動畫和運鏡方式傳入到Unity裡面有一定程度的挑戰，要調整很多設定才會達到不錯的效果，我外加了Baked Lightmap和另外調整了材質，讓原本單調的光影變得更生動。
+</div>
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LrIVmA65-lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<h3> lab 5: </h3>
+<div>
+心得: 為了做出這個畫面，發掘了很多關於Trail和Particles新的用法，對Timeline的操作方式也更熟悉了，我也很高興能夠把這個畫面用自己能達到的程度高品質的重現。
+</div>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qnuF1Ye2WP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+<h3> Final Project: </h3>
+<div>
+心得: Timeline的調整還是最困難的部分，我在劍的損壞坑洞的部分使用了自製Normal Map的效果，雖然簡單但成效真的不錯，另外，在頭的血跡的部分，我使用了Particle System裡面Trail>Ribbon mode的效果，效果也出乎意料的不錯，最後，我自己撰寫了鏡頭搖晃的效果以增添真實感，並使用Timeline裡面
+    Signal Track的功能。這樣就可以自由的開關跟調整各個部件，我覺得獲益良多。
+</div>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XpPWHapYeQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+</body>
+</html>
